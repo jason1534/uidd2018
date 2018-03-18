@@ -1,0 +1,79 @@
+/*.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+*/
+  html {
+            height: 100%;
+        }
+
+        body {
+            background-image: url(screenshots/IMG_3454.JPG);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
+.nav {
+  font-family: 'Ubuntu', sans-serif;
+  color: #0059b3;
+}
+
+.pull-right {
+  margin-top: 27px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+/*.topic {
+  background-image:url('screenshots/IMG_3349.JPG');
+  height: 130px;
+  background-size: cover;
+}*/
+
+.topic .container {
+  position: relative;
+  top:60px;
+}
+
+.topic h1 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.topic p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.about-me {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.about-me h3 {
+  color:#0059b3;
+}
+
+.about-me li {
+  font-size: 16px;
+  /*color: #ffff00;*/
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+}
+
+.learn-more h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
