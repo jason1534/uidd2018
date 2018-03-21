@@ -29,27 +29,44 @@
 
 }
 
-/*.topic {
-  background-image:url('screenshots/IMG_3349.JPG');
-  height: 130px;
+.topic {
+  background-color:transparent;
+  height: 720px;
   background-size: cover;
-}*/
+}
 
 .topic .container {
   position: relative;
-  top:60px;
 }
 
 .topic h1 {
   color: #fff;
-  font-size: 60px;
+  font-size: 82px;
   font-weight: bold;
+  font-variant: small-caps;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    padding-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    padding-left: 0%;
+    width: 100%;
+  }
+}
 }
 
 .topic p {
   font-size: 20px;
   color: #fff;
 }
+
+
 
 .about-me {
   font-family: 'Ubuntu', sans-serif;
